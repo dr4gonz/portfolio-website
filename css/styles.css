@@ -1,12 +1,14 @@
-#name {
-
+body {
+  padding-top: 70px;
 }
 
-#title{
-  
+.col-md-4 {
+  border: 1px solid red;
 }
 
-
-#mepicture {
-
+.project-title {
+  text-align: center;
+}
+.project-text {
+  text-align:center;
 }
