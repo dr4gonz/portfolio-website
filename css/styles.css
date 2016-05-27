@@ -3,6 +3,7 @@
 body {
   padding-top: 70px;
   background-image:url("../img/faded-texture.jpg");
+  background-attachment: fixed;
 }
 
 .col-md-4 {
@@ -33,6 +34,20 @@ body {
   align-items: center;
 }
 
+/* About Me Styling */
+
+#mypicture {
+  max-width: 10%;
+  max-height: auto;
+  float:left;
+}
+
+.aboutme-text {
+  float:left;
+  margin-left: 5px;
+}
+
+
 /* Footer Styling */
 #footer-div {
   color: rgba(150,150,150,0.8);
@@ -48,6 +63,11 @@ body {
 }
 #footer-content {
   color:white;
+  min-width:500px;
+  width:50%;
+  margin-right: auto;
+  margin-top: -0.5em;
+  margin-left: auto;
 }
 
 #contactme {
@@ -61,4 +81,8 @@ body {
   margin-right: 5px;
   margin-left:15px;
   margin-top:4px;
+}
+
+.person-img {
+  width: 13px;
 }
