@@ -7,12 +7,26 @@ body {
 }
 
 .col-md-4 {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .h3 {
   display: block;
 }
 
+#nav-name {
+  font-size: 1.3em;
+}
+
+#nav-title {
+  font-size: 1.025em;
+  padding-top: 4px;
+}
+
+.nav-contacts {
+  margin-right: 10px;
+}
 /* Section Styling */
 .section-title {
   width: 100%;
@@ -23,12 +37,12 @@ body {
   font-size: 2em;
   color: rgba(0,0,0,0.5);
 }
-.project-title {
+/*.project-title {
   text-align: center;
 }
 .project-text {
   text-align:center;
-}
+}*/
 
 .project-image {
   align-items: center;
@@ -107,3 +121,14 @@ body {
         display: table-cell;
         vertical-align: top;
     }
+
+@media only screen and (max-width: 481px) {
+    #mypicture {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      max-width: auto;
+
+    }
+}
