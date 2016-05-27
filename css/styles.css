@@ -1,14 +1,64 @@
+/* Main Styling */
+
 body {
   padding-top: 70px;
+  background-image:url("../img/faded-texture.jpg");
 }
 
 .col-md-4 {
   border: 1px solid red;
 }
+.h3 {
+  display: block;
+}
 
+/* Section Styling */
+.section-title {
+  width: 100%;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  text-align:left;
+  padding-left: 50px;
+  font-size: 2em;
+  color: rgba(0,0,0,0.5);
+}
 .project-title {
   text-align: center;
 }
 .project-text {
   text-align:center;
+}
+
+.project-image {
+  align-items: center;
+}
+
+/* Footer Styling */
+#footer-div {
+  color: rgba(150,150,150,0.8);
+  min-width: 100%;
+  bottom:0;
+  left:0;
+  right:0;
+  font-size: 13px;
+  background-color: rgba(0,0,0,0.6);
+  height: 9em;
+  /*border: 1px solid red;*/
+  text-align: center;
+}
+#footer-content {
+  color:white;
+}
+
+#contactme {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.contact-img {
+  width: 17px;
+  margin-right: 5px;
+  margin-left:15px;
+  margin-top:4px;
 }
